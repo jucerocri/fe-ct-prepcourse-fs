@@ -117,6 +117,7 @@ function deleteAbc(string) {
     
 }
 return(cadena);
+
 }
 
 
@@ -133,6 +134,7 @@ function sortArray(arrayOfStrings) {
    // El sort()ordena los elementos como cadenas en orden alfabético y ascendente.
    
    return arrayOfStrings.sort((a, b) => a.length - b.length);
+   
 }
 
 function buscoInterseccion(array1, array2) {
